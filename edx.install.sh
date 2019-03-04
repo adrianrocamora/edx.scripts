@@ -1,7 +1,5 @@
 #!/bin/sh
-cd
-git clone https://github.com/adrianrocamora/edx.scripts.git
-cd edx.scripts.git
+cd ~/edx.scripts
 
 sudo chmod 755 edx.platform-bootstrap-ansible.sh
 sudo chmod 755 edx.platform-gen-pw.sh
